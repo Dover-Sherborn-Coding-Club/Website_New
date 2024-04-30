@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Coding Club</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"
+          ><img
+            src="/images/Untitled-2-removebg-preview.png"
+            alt="Coding Club"
+            width="200"
+            height="200"
+        /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/about/about.html" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/top-projects/topprojects.html" class="nav__link"
+                >Top Projects</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="/join/join.html" class="nav__link">Join</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/events/events.html" class="nav__link">Events</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__actions">
+          <!-- Search button -->
+          <i class="ri-search-line nav__search" id="search-btn"></i>
+          <!-- Login button -->
+          <i class="ri-user-line nav__login" id="login-btn"></i>
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== SEARCH ====================-->
+    <div class="search" id="search">
+      <form action="" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input
+          type="search"
+          placeholder="What are you looking for?"
+          class="search__input"
+        />
+      </form>
+      <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+
+    <!--==================== LOGIN ====================-->
+    <div class="login" id="login">
+      <form action="" class="login__form">
+        <h2 class="login__title">Log in</h2>
+
+        <div class="login__group">
+          <div>
+            <label for="" class="login__label">Email</label>
+            <input
+              type="email"
+              placeholder="Write your email please"
+              class="login__input"
+              id="email"
+            />
+          </div>
+
+          <div>
+            <label for="password" class="login__label">Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password please"
+              class="login__input"
+              id="password"
+            />
+          </div>
+        </div>
+
+        <div>
+          <p class="login__signup">
+            You do not have an account? <a href="#">Sign up</a>
+          </p>
+
+          <a href="#" class="login__forgot"> You forgot your password </a>
+
+          <button class="login__button" type="submit">Log In</button>
+        </div>
+      </form>
+
+      <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+
+    <!--==================== HOME ====================-->
+
+    <section class="home_section" id="home">
+      <div class="home__container">
+        <div class="home__data">
+          <h1 class="home__title">
+            From Script to Reality
+            <br />
+            Build It with DS Coding Club
+          </h1>
+          <a href="#scroll" class="scroll-arrow"
+            ><i class="ri-arrow-down-s-line"></i
+          ></a>
+
+          <img
+            src="./images/backgroundimageclub.webp"
+            alt=""
+            style="width: 100%; height: 90%"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--==================== HOME  JOIN ====================-->
+    <br id="scroll" />
+    <br />
+    <br />
+
+    <section class="home_section__join" id="home__join">
+      <div class="home__join__container">
+        <div class="home__join__image">
+          <img src="./images/askas-jeremy-9R8SEJ4sKgk-unsplash.jpg " alt="" />
+        </div>
+        <div class="home__join__text">
+          <h1 class="home__join__title">Why Join Us</h1>
+
+          <div class="home__join__description">
+            <ul class="home__join__ul">
+              <li class="join__description">
+                Learn and Grow: Expand your coding skills with hands-on projects
+                and interactive sessions
+              </li>
+              <br />
+              <li class="join__description">
+                Community: Connect with other students that share your interests
+                in technology
+              </li>
+              <br />
+              <li class="join__description">
+                Fun and Creativity: Explore the endless possibilities of coding
+                through creative projects and challenges
+              </li>
+              <br />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <!--===================== HOME INVOLVED ==================-->
+
+    <section class="home_section__involve" id="home__join">
+      <div class="home__involve__container">
+        <div class="home__involve__text">
+          <h1 class="home__involve__title">How To Get Involved</h1>
+          <div class="home__involve__description">
+            <ul class="home__involve__ul">
+              <li class="involve__description">
+                Contact Us: Reach out to us via email or visit our website for
+                more information.
+              </li>
+              <br />
+              <li class="involve__description">
+                Join our Google Classroom:
+                <a
+                  href="https://classroom.google.com/c/NjIzMDU2NTc5OTM3?cjc=ukotovt"
+                  target="_blank"
+                  class="click"
+                  >Click Here</a
+                >
+                to access resources, announcements, and collaborate with other
+                members.
+              </li>
+              <br />
+              <li class="involve__description">
+                Attend Meetings: Join us for our regular meetings where we
+                discuss coding concepts, work on projects, and have fun
+                together.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="home__involve__image">
+          <img
+            src="./images/roberta-sorge-UvVVnUmW2mQ-unsplash.jpg"
+            alt=""
+            style="size: 50%"
+          />
+        </div>
+      </div>
+    </section>
+
+    <br />
+    <!--=================== FOOTER ===================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <a href="#" class="footer__logo">
+          <!-- <img src="bg-image.png" alt="random img" /> -->
+        </a>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Website</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="/index.html" class="footer__link">Home</a>
+            </li>
+
+            <li>
+              <a href="/about/about.html" class="footer__link">About</a>
+            </li>
+
+            <li>
+              <a href="/top-projects/topprojects.html" class="footer__link"
+                >Top Projects</a
+              >
+            </li>
+
+            <li>
+              <a href="/join/join.html" class="footer__link">Join</a>
+            </li>
+
+            <li>
+              <a href="/events/events.html" class="footer__link">Events</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <form action="" class="footer__form">
+            <input type="email" placeholder="Email" class="footer__input" />
+            <button class="button button--flex">
+              <a href="mailto:estermersuli@gmail.com">
+                <i class="ri-send-plane-line button__icon"></i>Subscribe
+              </a>
+            </button>
+          </form>
+
+          <div class="footer__social">
+            <!-- <a href="#" class="footer__social-link"
+              ><i class="ri-facebook-fill"></i
+            target="_blank"></a> -->
+            <a
+              href="https://www.instagram.com/dshs_cc/"
+              class="footer__social-link"
+              target="_blank"
+              ><i class="ri-instagram-line"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copy">
+        <a href="/ester.html" target="_blank" class="footer__copy-link">
+          &copy; Ester Mersuli. All rights reserved
+        </a>
+      </p>
+    </footer>
+    <!--=============== MAIN JS ===============-->
+    <script src="/about/script.js"></script>
+  </body>
+</html>
